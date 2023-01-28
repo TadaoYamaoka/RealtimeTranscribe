@@ -13,7 +13,7 @@ Whisperのbaseモデルを使用しています。
 [Release](https://github.com/TadaoYamaoka/RealtimeTranscribe/releases)からRealtimeTranscribe.zipをダウンロードして、任意のフォルダに解凍します。
 
 ## 実行方法
-解凍したフォルダにある「RealtimeTranscribe.exe」をダブルクリックすると起動できます。
+解凍したフォルダにある「RealtimeTranscribe.exe」をダブルクリックすると起動します。
 
 ## 実行環境
 [.NET 6のランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)(.NET デスクトップ ランタイム)が必要
