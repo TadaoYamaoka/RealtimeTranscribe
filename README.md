@@ -14,3 +14,12 @@ Whisperのbaseモデルを使用しています。
 
 ## 実行方法
 解凍したフォルダにある「RealtimeTranscribe.exe」をダブルクリックすると起動できます。
+
+## 使用ライブラリ
+以下のライブラリを使用しています。
+* [ONNX Runtime](https://github.com/Microsoft/onnxruntime)
+* [NAudio](https://github.com/naudio/NAudio)
+* [Math.NET Numerics](https://numerics.mathdotnet.com/)
+
+## ライセンス
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a>
