@@ -20,6 +20,7 @@ Whisperのbaseモデルを使用しています。
 
 ## 使用ライブラリ
 以下のライブラリを使用しています。
+* [Whisper](https://github.com/openai/whisper)
 * [ONNX Runtime](https://github.com/Microsoft/onnxruntime)
 * [NAudio](https://github.com/naudio/NAudio)
 * [Math.NET Numerics](https://numerics.mathdotnet.com/)
