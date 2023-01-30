@@ -16,7 +16,8 @@ Whisperのbaseモデルを使用しています。
 解凍したフォルダにある「RealtimeTranscribe.exe」をダブルクリックすると起動します。
 
 ## 実行環境
-[.NET 6のランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)(.NET デスクトップ ランタイム)が必要
+- Windows 10/11 64bit
+- [.NET 6のランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)(.NET デスクトップ ランタイム)が必要
 
 ## 使用ライブラリ
 以下のライブラリを使用しています。
