@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="MathNet.Numerics.MKL.Win-x64" Version="3.0.0" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.13.1" />
+    <PackageReference Include="NAudio.Core" Version="2.1.0" />
+    <PackageReference Include="NAudio.Wasapi" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="encoder.onnx" />
+    <EmbeddedResource Include="decoder.onnx" />
+    <EmbeddedResource Include="mel_filters.bin" />
+    <EmbeddedResource Include="vocab.json" />
+  </ItemGroup>
+
+</Project>
